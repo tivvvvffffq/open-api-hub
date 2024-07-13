@@ -1,9 +1,9 @@
 package com.nxj.api.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.nxj.api.service.InterfaceInfoService;
-import com.nxj.api.model.entity.InterfaceInfo;
 import com.nxj.api.mapper.InterfaceInfoMapper;
+import com.nxj.api.model.entity.InterfaceInfo;
+import com.nxj.api.service.InterfaceInfoService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,10 @@ import org.springframework.stereotype.Service;
 public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
     implements InterfaceInfoService {
 
+    @Override
+    public void validInterfaceInfo(InterfaceInfo interfaceInfo, boolean b) {
+
+    }
 }
 
 

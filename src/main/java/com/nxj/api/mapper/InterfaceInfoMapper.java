@@ -1,7 +1,7 @@
 package com.nxj.api.mapper;
 
-import com.nxj.api.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.nxj.api.model.entity.InterfaceInfo;
 
 /**
 * @author niexingju

@@ -1,7 +1,7 @@
 package com.nxj.api.service;
 
-import com.nxj.api.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.nxj.api.model.entity.InterfaceInfo;
 
 /**
 * @author niexingju
@@ -10,4 +10,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface InterfaceInfoService extends IService<InterfaceInfo> {
 
+    void validInterfaceInfo(InterfaceInfo interfaceInfo, boolean b);
 }

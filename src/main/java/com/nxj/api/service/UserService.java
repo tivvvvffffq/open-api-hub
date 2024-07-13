@@ -1,7 +1,9 @@
 package com.nxj.api.service;
 
-import com.nxj.api.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.nxj.api.model.entity.User;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
 * @author niexingju
@@ -10,4 +12,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface UserService extends IService<User> {
 
+    User getLoginUser(HttpServletRequest request);
+
+    boolean isAdmin(HttpServletRequest request);
 }

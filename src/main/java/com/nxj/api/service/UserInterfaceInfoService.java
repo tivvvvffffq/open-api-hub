@@ -1,7 +1,7 @@
 package com.nxj.api.service;
 
-import com.nxj.api.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.nxj.api.model.entity.UserInterfaceInfo;
 
 /**
 * @author niexingju
